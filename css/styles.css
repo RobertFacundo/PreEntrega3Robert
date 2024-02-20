@@ -163,6 +163,18 @@ h2 {
 }
 
 
+
+/* estilo para el parrafo la seccion quien-soy*/
+.container-fluid .col .descripcion{
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 5px;
+    margin-top: 60px;
+}
+
+
 /* media queries para el index.html y arte.html */
 
 @media (max-width: 1479px) {
