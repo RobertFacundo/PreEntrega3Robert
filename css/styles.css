@@ -143,6 +143,26 @@ h2 {
     height: 70vh;
 }
 
+
+/* estilos para la seccion de musica */
+
+.main-musica {
+ display: flex;
+ width: 100%;
+ align-items: center;
+}
+
+.pmusica{
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 5px;
+    text-align: center;
+    width: 40%;
+}
+
+
 /* media queries para el index.html y arte.html */
 
 @media (max-width: 1479px) {
