@@ -110,3 +110,20 @@ h2 {
 .main-content section a:hover{
     font-style: italic;
 }
+
+/* estilo de footter y su parrafo */
+.footer {
+    margin-top: 10px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
