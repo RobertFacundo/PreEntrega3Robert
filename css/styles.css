@@ -7,13 +7,13 @@
 }
 /* imagen de fondo para la pagina */
 body {
-    background-image: url(../IMG/white-waves.webp);
+    background-image: url(../multimedia/white-waves.jpg);
 }
 
 /* imagen de cabecera */
 .header {
     display: flex;
-    background-image: url(../IMG/libros.jpg);
+    background-image: url(../multimedia/libros.jpg);
     height: 270px;
 }
 
@@ -41,7 +41,7 @@ li {
 }
 
 li:hover{
-    background-image: url(../IMG/white-waves.webp);
+    background-image: url(../multimedia/white-waves.jpg);
     color: black;
 }
 
@@ -184,7 +184,7 @@ h2 {
 }
 
 
-/* media queries para el index.html y arte.html */
+/* media queries para index.html y arte.html */
 
 @media (max-width: 1479px) {
     .main-content section p {
