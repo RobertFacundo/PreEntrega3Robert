@@ -29,10 +29,14 @@ body {
 
 .navizq ul {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .navder ul {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -196,6 +200,23 @@ h2 {
     height: 350px;
 }
 
+/* Seccion de contacto, formulario y parrafo */
+.main-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form{
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+.p-contacto{
+    width: 40%;
+    margin-top: 69px;
+}
 
 /* media queries para index.html y arte.html */
 
