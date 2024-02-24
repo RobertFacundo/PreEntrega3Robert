@@ -96,7 +96,10 @@ h2 {
     text-indent: 5px;
 }
 
-.main-content section a {
+/* estilo para los links de la seccion */
+.link {
+    display: inline-block;
+    position: relative;
     width: 100%;
     text-align: right;
     font-family: 'Montserrat', sans-serif;
@@ -107,8 +110,18 @@ h2 {
     text-align: center;
 }
 
-.main-content section a:hover{
-    font-style: italic;
+.link:after{
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+}
+
+.link:hover:after {
+    width: 39%;
+    background: #333;
 }
 
 /* estilo de footter y su parrafo */
