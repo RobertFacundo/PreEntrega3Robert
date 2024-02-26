@@ -44,19 +44,24 @@ li {
     padding: 10px 20px;
 }
 
-li:hover{
+li:after{
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+}
+
+li:hover:after{
     background-image: url(../multimedia/white-waves.jpg);
-    color: black;
+    width: 100%;
 }
 
 li a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
-}
-
-li a:hover{
-    color: black;
 }
 
 /* estilo para el contenido del index, sus secciones con hovers, y estilos para los parrafos y titulos */
