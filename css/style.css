@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../multimedia/white-waves.jpg); }
+
+.header {
+  display: flex;
+  background-image: url(../multimedia/libros.jpg);
+  height: 270px; }
+
+.menu-navegacion {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.5; }
+
+.navizq ul {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+.navder ul {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  padding: 10px 20px; }
+
+li:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  transition: all .8s; }
+
+li:hover:after {
+  background-image: url(../multimedia/white-waves.jpg);
+  width: 100%; }
+
+li a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: white; }
+
+.link {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin: 10px 5px 0px 0px;
+  text-align: center; }
+
+.link:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  transition: all .8s; }
+
+.link:hover:after {
+  width: 39%;
+  background: #333; }
+
+.main-content {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 300px; }
+
+.main-content section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  width: 33%;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px 3px rgba(206, 209, 224, 0.25);
+  transition: box-shadow 0.3s ease; }
+
+.main-content section:hover {
+  box-shadow: 0 10px 40px 20px rgba(206, 209, 224, 0.4); }
+
+h1,
+h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Kodchasan', sans-serif; }
+
+.main-content section p {
+  margin-top: 5px;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-indent: 5px; }
+
+@media (max-width: 1479px) {
+  .main-content section p {
+    font-size: 16px; } }
+
+@media (max-width: 1300px) {
+  .main-content section p {
+    font-size: 13px; } }
+
+@media (max-width: 839px) {
+  li a {
+    padding: 10px; }
+  .main-content {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .main-content section {
+    width: 100vw;
+    height: 50vh; }
+  .main-content section p {
+    font-size: 20px; } }
+
+@media (max-width: 630px) {
+  .menu-navegacion {
+    height: 80px;
+    flex-direction: column;
+    align-items: center; }
+  .main-content {
+    margin-bottom: 50px; }
+  .main-content section {
+    margin-top: 50px; }
+  .main-content section p {
+    height: 80vh;
+    font-size: 16px; }
+  .main-content section a {
+    margin-bottom: 50px; } }
+
+.main-content-arte {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  align-items: center; }
+
+.arte {
+  height: 70vh; }
+
+@media (max-width: 1039px) {
+  h1 {
+    font-size: 18px; }
+  .main-content-arte .arte {
+    height: 500px;
+    overflow: hidden; } }
+
+@media (max-width: 913px) {
+  .main-content-arte .arte {
+    height: 400px; } }
+
+@media (max-width: 732px) {
+  .main-content-arte .titulo {
+    font-size: 13px; }
+  .main-content-arte .arte {
+    height: 300px;
+    overflow: hidden; } }
+
+@media (max-width: 630px) {
+  .main-content-arte .arte {
+    height: 270px;
+    overflow: hidden; } }
+
+@media (max-width: 500px) {
+  .main-content-arte .arte {
+    height: 230px;
+    overflow: auto; } }
+
+.main-musica {
+  display: flex;
+  width: 100%;
+  align-items: center; }
+
+.pmusica {
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-indent: 5px;
+  text-align: center;
+  width: 40%; }
+
+.main-qs {
+  display: flex; }
+
+.main-qs .col .descripcion {
+  color: black;
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  text-indent: 5px;
+  margin-top: 60px;
+  text-align: center; }
+
+.main-qs .col .imgqs {
+  height: 350px; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+form {
+  margin-top: 40px;
+  width: 60%;
+  text-align: center; }
+
+.p-contacto {
+  width: 40%;
+  margin-top: 69px; }

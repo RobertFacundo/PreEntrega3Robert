@@ -1,0 +1,45 @@
+.menu-navegacion {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.navizq ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navder ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+li:after{
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+}
+
+li:hover:after{
+    background-image: url(../multimedia/white-waves.jpg);
+    width: 100%;
+}
+
+li a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+}
