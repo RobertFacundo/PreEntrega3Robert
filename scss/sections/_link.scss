@@ -9,18 +9,18 @@
     color: black;
     margin: 10px 5px 0px 0px;
     text-align: center;
-}
 
-.link:after{
-    content: "";
+    &:after{
+        content: "";
     display: block;
     margin: auto;
     height: 2px;
     width: 0px;
     transition: all .8s;
+    }
+    &:hover:after{
+        width: 39%;
+    background: #333;
+    }
 }
 
-.link:hover:after {
-    width: 39%;
-    background: #333;
-}

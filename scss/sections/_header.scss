@@ -3,4 +3,52 @@
     background-image: url(../multimedia/libros.jpg);
     height: 270px;
     box-shadow: 0px 5px 13px 0px;
+
+    .menu-navegacion {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+        opacity: 0.4;
+
+        .navizq,
+        .navder {
+            display: flex;
+            align-items: flex-end;
+
+            ul {
+                display: flex;
+                align-items: flex-end;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style-type: none;
+                    padding: 10px 20px;
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        margin: auto;
+                        height: 2px;
+                        width: 0px;
+                        transition: all .8s;
+                    }
+
+                    &:hover:after {
+                        background-image: url(../multimedia/white-waves.jpg);
+                        width: 100%;
+                    }
+
+                    a {
+                        font-family: 'Montserrat', sans-serif;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
 }
