@@ -10,7 +10,8 @@ body {
 .header {
   display: flex;
   background-image: url(../multimedia/libros.jpg);
-  height: 270px; }
+  height: 270px;
+  box-shadow: 0px 5px 13px 0px; }
 
 .menu-navegacion {
   display: flex;
@@ -20,13 +21,23 @@ body {
   background-color: black;
   opacity: 0.5; }
 
+.navizq {
+  display: flex;
+  align-items: flex-end; }
+
+.navder {
+  display: flex;
+  align-items: flex-end; }
+
 .navizq ul {
   display: flex;
+  align-items: flex-end;
   margin: 0;
   padding: 0; }
 
 .navder ul {
   display: flex;
+  align-items: flex-end;
   margin: 0;
   padding: 0; }
 
