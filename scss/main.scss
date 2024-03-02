@@ -1,11 +1,11 @@
-@import './assets/typo';
-@import './sections/reset';
+@import './base/typo';
+@import './base/reset';
 @import './sections/body';
-@import './sections/header';
-@import './sections/link';
+@import './layout/header';
+@import './components/link';
 @import './sections/main/main-index';
 @import './sections/main/main-arte';
 @import './sections/main/main-musica';
 @import './sections/main/main-qs';
 @import './sections/main/main-contacto';
-@import './sections/footer';
+@import './layout/footer';
