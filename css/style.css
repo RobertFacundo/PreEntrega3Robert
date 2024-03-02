@@ -19,7 +19,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: black;
-  opacity: 0.5; }
+  opacity: 0.4; }
 
 .navizq {
   display: flex;
@@ -97,8 +97,9 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 20px;
-  width: 33%;
+  margin: 30px 20px;
+  width: 40%;
+  height: 40vh;
   color: black;
   border-radius: 20px;
   box-shadow: 0 1px 3px 3px rgba(206, 209, 224, 0.25);
@@ -108,7 +109,9 @@ li a {
   box-shadow: 0 10px 40px 20px rgba(206, 209, 224, 0.4); }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   margin-top: 5px;
   margin-bottom: 10px;
   font-family: 'Kodchasan', sans-serif; }
@@ -117,7 +120,7 @@ h2 {
   margin-top: 5px;
   color: black;
   padding: 10px;
-  font-size: 18px;
+  font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   text-indent: 5px; }
 
