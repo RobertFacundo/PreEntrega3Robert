@@ -104,16 +104,8 @@ body {
       margin-top: 5px;
       margin-bottom: 10px;
       font-family: 'Kodchasan', sans-serif; }
-  .main-content:hover {
-    box-shadow: 0 10px 40px 20px rgba(206, 209, 224, 0.4); }
-
-h1,
-h2,
-h3,
-h4 {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-family: 'Kodchasan', sans-serif; }
+    .main-content section:hover {
+      box-shadow: 0 10px 40px 20px rgba(206, 209, 224, 0.4); }
 
 @media (max-width: 1479px) {
   .main-content section p {

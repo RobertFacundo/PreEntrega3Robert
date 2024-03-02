@@ -34,21 +34,10 @@
             margin-bottom: 10px;
             font-family: 'Kodchasan', sans-serif;
         }
+        &:hover {
+            box-shadow: 0 10px 40px 20px rgba(206, 209, 224, .4);
+        }
     }
-
-    &:hover {
-        box-shadow: 0 10px 40px 20px rgba(206, 209, 224, .4);
-    }
-}
-
-
-h1,
-h2,
-h3,
-h4 {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Kodchasan', sans-serif;
 }
 
 
