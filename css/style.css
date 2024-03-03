@@ -184,18 +184,20 @@ body {
 
 @media (max-width: 630px) {
   .main-content-arte a .arte {
-    height: 270px;
-    overflow: hidden; } }
+    height: 270px; } }
 
 @media (max-width: 500px) {
   .main-content-arte .arte {
-    height: 230px;
-    overflow: auto; } }
+    height: 200px; } }
 
 .main-musica {
   display: flex;
-  width: 100%;
-  align-items: center; }
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; }
+  .main-musica iframe {
+    width: 80%;
+    height: 400px; }
   .main-musica .pmusica {
     color: black;
     padding: 10px;
@@ -203,7 +205,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-indent: 5px;
     text-align: center;
-    width: 40%; }
+    margin-top: 20px; }
+
+@media (max-width: 627px) {
+  .main-musica .pmusica {
+    margin-top: 97px; }
+  .main-musica iframe {
+    height: 300px; } }
+
+@media (max-width: 439px) {
+  .main-musica .pmusica {
+    margin-top: 50px; } }
 
 .main-qs {
   display: flex; }
@@ -242,3 +254,7 @@ body {
     text-align: center;
     padding-top: 5px;
     margin-bottom: 0; }
+
+@media (max-width: 639px) {
+  .footer {
+    opacity: 0.8; } }

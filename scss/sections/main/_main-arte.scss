@@ -58,7 +58,6 @@
         a {
             .arte {
                 height: 270px;
-                overflow: hidden;
             }
         }
     }
@@ -67,8 +66,7 @@
 @media (max-width: 500px) {
     .main-content-arte {
         .arte {
-            height: 230px;
-            overflow: auto;
+            height: 200px;
         }
     }
 }
