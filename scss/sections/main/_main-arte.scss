@@ -23,7 +23,7 @@
         a {
             .arte {
                 height: 500px;
-                overflow: hidden;
+                max-width: 80vw;
             }
         }
     }
@@ -49,24 +49,6 @@
             .arte {
                 height: 250px;
             }
-        }
-    }
-}
-
-@media (max-width: 630px) {
-    .main-content-arte {
-        a {
-            .arte {
-                height: 270px;
-            }
-        }
-    }
-}
-
-@media (max-width: 500px) {
-    .main-content-arte {
-        .arte {
-            height: 200px;
         }
     }
 }

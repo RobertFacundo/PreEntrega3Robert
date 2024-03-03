@@ -170,7 +170,7 @@ body {
     font-size: 18px; }
   .main-content-arte a .arte {
     height: 500px;
-    overflow: hidden; } }
+    max-width: 80vw; } }
 
 @media (max-width: 913px) {
   .main-content-arte .arte {
@@ -181,14 +181,6 @@ body {
     font-size: 13px; }
   .main-content-arte a .arte {
     height: 250px; } }
-
-@media (max-width: 630px) {
-  .main-content-arte a .arte {
-    height: 270px; } }
-
-@media (max-width: 500px) {
-  .main-content-arte .arte {
-    height: 200px; } }
 
 .main-musica {
   display: flex;
@@ -229,6 +221,13 @@ body {
     text-align: center; }
   .main-qs .col .imgqs {
     height: 350px; }
+
+@media (max-width: 913px) {
+  .main-qs {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .main-qs .col .descripcion {
+      margin-top: 10px; } }
 
 .main-contacto {
   display: flex;

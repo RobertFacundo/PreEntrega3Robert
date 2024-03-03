@@ -15,3 +15,15 @@
         }
     }
 }
+
+@media (max-width: 913px){
+    .main-qs{
+        flex-wrap: wrap;
+        justify-content: center;
+        .col{
+            .descripcion{
+                margin-top: 10px;
+            }
+        }
+    }
+}
