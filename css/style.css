@@ -51,6 +51,12 @@ body {
             text-decoration: none;
             color: white; }
 
+@media (max-width: 630px) {
+  .header .menu-navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; } }
+
 .link {
   display: inline-block;
   position: relative;
@@ -154,9 +160,9 @@ body {
     height: 70vh; }
 
 @media (max-width: 1039px) {
-  h1 {
+  .main-content-arte h1 {
     font-size: 18px; }
-  .main-content-arte .arte {
+  .main-content-arte a .arte {
     height: 500px;
     overflow: hidden; } }
 
@@ -167,14 +173,16 @@ body {
 @media (max-width: 732px) {
   .main-content-arte .titulo {
     font-size: 13px; }
-  .main-content-arte .arte {
+  .main-content-arte a .arte {
     height: 300px;
     overflow: hidden; } }
 
 @media (max-width: 630px) {
-  .main-content-arte .arte {
-    height: 270px;
-    overflow: hidden; } }
+  .main-content-arte {
+    overflow-y: hidden; }
+    .main-content-arte a .arte {
+      height: 270px;
+      overflow: hidden; } }
 
 @media (max-width: 500px) {
   .main-content-arte .arte {
