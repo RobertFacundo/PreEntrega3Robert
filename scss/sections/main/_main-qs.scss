@@ -1,7 +1,8 @@
-.main-qs{
+.main-qs {
     display: flex;
     .col {
-        .descripcion{
+        margin-top: 100px;
+        .descripcion {
             color: black;
             padding: 10px;
             font-size: 22px;
@@ -16,12 +17,14 @@
     }
 }
 
-@media (max-width: 913px){
-    .main-qs{
+@media (max-width: 913px) {
+    .main-qs {
         flex-wrap: wrap;
         justify-content: center;
-        .col{
-            .descripcion{
+
+        .col {
+        margin-top: 20px;
+            .descripcion {
                 margin-top: 10px;
             }
         }
