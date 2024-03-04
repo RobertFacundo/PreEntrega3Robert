@@ -1,8 +1,7 @@
 .main-contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .flex;
     .p-contacto {
+        font-family: $fuente-parrafo;
         width: 40%;
         margin-top: 69px;
     }

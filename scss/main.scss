@@ -1,7 +1,8 @@
-@import './base/typo';
+@import './utilities/variables';
 @import './base/reset';
 @import './sections/body';
 @import './layout/header';
+@import './utilities/extends';
 @import './components/link';
 @import './utilities/animations';
 @import './sections/main/main-index';

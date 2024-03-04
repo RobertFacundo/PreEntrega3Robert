@@ -1,0 +1,33 @@
+.titles {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: $fuente-titulo;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// mixins
+
+@mixin sections ($justificado) {
+    justify-content: $justificado;
+    margin: 30px 20px;
+    width: 40%;
+    height: 40vh;
+    color: $color-primary;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 3px rgba(206, 209, 224, .25);
+    transition: box-shadow 0.3s ease;
+}
+
+@mixin parrafo ($fuente-parrafo) {
+    margin-top: 5px;
+    color: $color-primary;
+    padding: 10px;
+    font-size: 13px;
+    font-family: $fuente-parrafo;
+    text-indent: 5px;
+}

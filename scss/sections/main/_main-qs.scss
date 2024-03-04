@@ -3,10 +3,10 @@
     .col {
         margin-top: 100px;
         .descripcion {
-            color: black;
+            color: $color-primary;
             padding: 10px;
             font-size: 22px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $fuente-parrafo;
             text-indent: 5px;
             margin-top: 60px;
             text-align: center;

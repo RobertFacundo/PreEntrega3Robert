@@ -3,10 +3,10 @@
     position: relative;
     width: 100%;
     text-align: right;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuente-parrafo;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: $color-primary;
     margin: 10px 5px 0px 0px;
     text-align: center;
 
@@ -21,6 +21,6 @@
 
     &:hover:after {
         width: 39%;
-        background: #333;
+        background: $color-after;
     }
 }

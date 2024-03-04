@@ -6,53 +6,23 @@
     height: 300px;
 
     section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 30px 20px;
-        width: 40%;
-        height: 40vh;
-        color: black;
-        border-radius: 20px;
-        box-shadow: 0 1px 3px 3px rgba(206, 209, 224, .25);
-        transition: box-shadow 0.3s ease;
+        @extend .flex;
+        @include sections (center);
 
         p {
-            margin-top: 5px;
-            color: black;
-            padding: 10px;
-            font-size: 13px;
-            font-family: 'Montserrat', sans-serif;
-            text-indent: 5px;
+           @include parrafo ($fuente-parrafo);
         }
 
-        h1 {
-            margin-top: 5px;
-            margin-bottom: 10px;
-            font-family: 'Kodchasan', sans-serif;
-        }
-
-        h2 {
-            margin-top: 5px;
-            margin-bottom: 10px;
-            font-family: 'Kodchasan', sans-serif;
+        h1,h2,h4 {
+            @extend .titles;
         }
 
         h3 {
-            margin-top: 5px;
-            margin-bottom: 10px;
-            font-family: 'Kodchasan', sans-serif;
+            @extend .titles;
             animation-name: sueño;
             animation-duration: 4s;
             animation-iteration-count: infinite;
             animation-timing-function: ease-in-out;
-        }
-
-        h4 {
-            margin-top: 5px;
-            margin-bottom: 10px;
-            font-family: 'Kodchasan', sans-serif;
         }
 
         &:hover {

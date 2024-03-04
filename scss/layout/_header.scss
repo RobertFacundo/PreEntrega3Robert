@@ -8,7 +8,7 @@
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
-        background-color: black;
+        background-color: $color-primary;
         opacity: 0.4;
         height: 270px;
 
@@ -42,9 +42,9 @@
                     }
 
                     a {
-                        font-family: 'Montserrat', sans-serif;
+                        font-family: $fuente-parrafo;
                         text-decoration: none;
-                        color: white;
+                        color: $color-secondary;
                     }
                 }
             }

@@ -1,7 +1,5 @@
 .main-musica {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .flex;
     margin: 20px;
 
     iframe {
@@ -10,10 +8,10 @@
     }
 
     .pmusica {
-        color: black;
+        color: $color-primary;
         padding: 10px;
         font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $fuente-parrafo;
         text-indent: 5px;
         text-align: center;
         margin-top: 20px;
