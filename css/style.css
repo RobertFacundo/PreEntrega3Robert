@@ -1,12 +1,36 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kodchasan&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap");
+.titles, .main-content section h1, .main-content section h2, .main-content section h4, .main-content section h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Kodchasan", sans-serif; }
+
+.flex, .main-content section, .main-content-arte, .main-musica, .main-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+@keyframes sueño {
+  0% {
+    transform: scale(1);
+    color: black; }
+  25% {
+    transform: scale(1.2);
+    color: #656363; }
+  50% {
+    transform: scale(1.3);
+    color: #fffdfd; }
+  75% {
+    transform: scale(1.2);
+    color: #656363; }
+  100% {
+    transform: scale(1);
+    color: black; } }
+
 * {
   margin: 0;
   padding: 0; }
-
-body {
-  background-image: url(../multimedia/white-waves.jpg); }
 
 .header {
   display: flex;
@@ -58,54 +82,25 @@ body {
     flex-direction: column;
     align-items: center; } }
 
-.titles, .main-content section h1, .main-content section h2, .main-content section h4, .main-content section h3 {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-family: "Kodchasan", sans-serif; }
+.footer {
+  margin-top: 10px;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer p {
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0; }
 
-.flex, .main-content section, .main-content-arte, .main-musica, .main-contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+@media (max-width: 639px) {
+  .footer {
+    opacity: 0.8; } }
 
-.link {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  text-align: right;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-  margin: 10px 5px 0px 0px;
-  text-align: center; }
-  .link:after {
-    content: "";
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    transition: all .8s; }
-  .link:hover:after {
-    width: 39%;
-    background: #2f2f2f; }
-
-@keyframes sueño {
-  0% {
-    transform: scale(1);
-    color: black; }
-  25% {
-    transform: scale(1.2);
-    color: #656363; }
-  50% {
-    transform: scale(1.3);
-    color: #fffdfd; }
-  75% {
-    transform: scale(1.2);
-    color: #656363; }
-  100% {
-    transform: scale(1);
-    color: black; } }
+body {
+  background-image: url(../multimedia/white-waves.jpg); }
 
 .main-content {
   display: flex;
@@ -266,19 +261,24 @@ body {
     .main-contacto form .mb-3 .form-control:focus {
       transform: scale(1.05); }
 
-.footer {
-  margin-top: 10px;
-  background-color: black;
-  opacity: 0.6;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%; }
-  .footer p {
-    text-align: center;
-    padding-top: 5px;
-    margin-bottom: 0; }
-
-@media (max-width: 639px) {
-  .footer {
-    opacity: 0.8; } }
+.link {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin: 10px 5px 0px 0px;
+  text-align: center; }
+  .link:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s; }
+  .link:hover:after {
+    width: 39%;
+    background: #2f2f2f; }

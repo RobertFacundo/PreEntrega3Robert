@@ -1,13 +1,23 @@
+// Utilities
 @import './utilities/variables';
-@import './base/reset';
-@import './sections/body';
-@import './layout/header';
 @import './utilities/extends';
-@import './components/link';
 @import './utilities/animations';
-@import './sections/main/main-index';
-@import './sections/main/main-arte';
-@import './sections/main/main-musica';
-@import './sections/main/main-qs';
-@import './sections/main/main-contacto';
+
+// Base
+@import './base/reset';
+
+// Layout
+@import './layout/header';
 @import './layout/footer';
+
+// Sections
+@import './sections/body';
+@import './sections/main-index';
+@import './sections/main-arte';
+@import './sections/main-musica';
+@import './sections/main-qs';
+@import './sections/main-contacto';
+
+// Components
+@import './components/link';
+
