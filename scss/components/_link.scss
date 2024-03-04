@@ -10,17 +10,17 @@
     margin: 10px 5px 0px 0px;
     text-align: center;
 
-    &:after{
+    &:after {
         content: "";
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    transition: all .8s;
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        transition: all .8s;
     }
-    &:hover:after{
+
+    &:hover:after {
         width: 39%;
-    background: #333;
+        background: #333;
     }
 }
-

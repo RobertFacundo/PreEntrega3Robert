@@ -97,6 +97,20 @@ body {
     transform: scale(1);
     color: black; } }
 
+@keyframes vuelo {
+  0% {
+    transform: scale(1);
+    color: black; }
+  25% {
+    transform: scale(1.2);
+    color: #656363; }
+  75% {
+    transform: scale(1.3);
+    color: #271b0d; }
+  100% {
+    transform: scale(1.2);
+    color: #656363; } }
+
 .main-content {
   display: flex;
   margin-top: 15px;
@@ -146,16 +160,16 @@ body {
       box-shadow: 0 10px 40px 20px rgba(206, 209, 224, 0.4); }
 
 @media (max-width: 1479px) {
-  .main-content section p {
-    font-size: 16px; } }
-
-@media (max-width: 1300px) {
   .main-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; }
     .main-content section p {
-      font-size: 13px; } }
+      font-size: 16px; } }
+
+@media (max-width: 1300px) {
+  .main-content section p {
+    font-size: 13px; } }
 
 @media (max-width: 839px) {
   .menu-navegacion .navizq ul li a,
