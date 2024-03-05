@@ -1,7 +1,7 @@
 .main-qs {
     display: flex;
     .col {
-        margin-top: 50px;
+        margin-top: 57px;
         .descripcion {
             color: $color-primary;
             padding: 10px;
@@ -21,11 +21,12 @@
     .main-qs {
         flex-wrap: wrap;
         justify-content: center;
-
         .col {
         margin-top: 20px;
+        max-width: 90%;
             .descripcion {
                 margin-top: 10px;
+                max-width: 90%;
             }
         }
     }
