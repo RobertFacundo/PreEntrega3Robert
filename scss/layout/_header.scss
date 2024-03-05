@@ -53,6 +53,24 @@
     }
 }
 
+@media (max-width: 839px) {
+    .header {
+        .menu-navegacion {
+
+            .navizq,
+            .navder {
+                ul {
+                    li {
+                        a {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 630px) {
     .header {
         .menu-navegacion {
