@@ -1,5 +1,6 @@
 .main-qs {
     display: flex;
+    margin-bottom: 50px;
     .col {
         margin-top: 57px;
         .descripcion {
@@ -14,13 +15,26 @@
         .imgqs {
             height: 350px;
         }
+        .t-realismo{
+            margin-top: 15px;
+            font-family: $fuente-titulo;
+            font-size: 25px;
+        }
+        .p-realismo{
+            margin-top: 15px;
+            color: $color-primary;
+            font-family: $fuente-parrafo;
+            font-size: 22px;
+        }
     }
 }
 
-@media (max-width: 913px) {
+@media (max-width: 1010px) {
     .main-qs {
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         .col {
         margin-top: 20px;
         max-width: 90%;
