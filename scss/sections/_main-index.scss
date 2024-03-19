@@ -13,7 +13,7 @@
            @include parrafo ($fuente-parrafo);
         }
 
-        h1,h2,h4 {
+        h2,h4 {
             @extend .titles;
         }
 
