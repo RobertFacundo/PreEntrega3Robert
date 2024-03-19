@@ -107,9 +107,9 @@ h1 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    margin: 0;
-    top: -50%; }
+    line-height: 30px; }
     .footer .p-footer a {
+      padding-top: 13px;
       color: white;
       text-decoration: none;
       transition: all 0.2s ease-in-out; }
